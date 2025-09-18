@@ -77,7 +77,7 @@ const App: React.FC = () => {
             <div className="lg:flex lg:justify-between lg:gap-4">
                 <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                     <div>
-                        <img src="./profile.png" className="w-full sm:w-80 mb-10 rounded-full border-[#BA8CA0] border-8 shadow-xl" alt="" />
+                        <img src="/profile.png" className="w-full sm:w-80 mb-10 rounded-full border-[#BA8CA0] border-8 shadow-xl" alt="" />
                         <h1 className="text-4xl font-bold tracking-tight text-[#664E57] sm:text-5xl">{name}</h1>
                         <h2 className="mt-3 text-lg font-medium tracking-tight text-[#664E57] sm:text-xl">{title}</h2>
                         <p className="mt-4 max-w-xs leading-normal text-slate-400">{bio}</p>
