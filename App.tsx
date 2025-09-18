@@ -73,7 +73,7 @@ const App: React.FC = () => {
     };
 
     return (
-        <div className="mx-auto px-10 py-12 font-sans md:px-12 md:py-20 lg:px-64 lg:py-0 bg-[#FFFAFD]">
+        <div className="mx-auto px-10 py-12 font-sans md:px-12 md:py-20 lg:px-[25%] lg:py-0 bg-[#FFFAFD]">
             <div className="lg:flex lg:justify-between lg:gap-4">
                 <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                     <div>
