@@ -35,6 +35,13 @@ export const experience: TimelineItemData[] = [
         skills: ["Vue.js", "Laravel", "MySQL", "Docker", "Tailwind CSS"]
     },
     {
+        date: "2024 — PRESENTE",
+        title: "Profesora",
+        subtitle: "Digital House",
+        description: "Dicto cursos a empleados de empresas sobre temas variados; como inteligencia artificial, green code, desarrollo de software.",
+        skills: []
+    },
+    {
         date: "2023 — 2024",
         title: "Desarrolladora Web Frontend",
         subtitle: "Ministerio de Justicia y Derechos Humanos de Santiago del Estero",
