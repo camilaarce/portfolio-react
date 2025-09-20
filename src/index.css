@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+body.light-theme {
+    @apply bg-[#FFFAFD] text-slate-800;
+}
+
+body.dark-theme {
+    @apply bg-black text-slate-300;
+}
+
+.title {
+    @apply text-[#664E57];
+}
+
+.dark .title {
+    @apply text-[#C2889D];
+}
+
+.nav {
+    @apply text-slate-600 hover:text-[#AB3E6E] transition-colors;
+}
+
+.dark .nav {
+    @apply text-slate-400 hover:text-[#FF7FAF] transition-colors;
+}
+
+.chip {
+    @apply bg-[#BA8CA0]/10;
+    @apply text-[#AB3E6E]
+}
+
+.dark .chip {
+    @apply bg-[#D99AB5]/20;
+    @apply text-[#D6568E]
+}
+
+.section-title {
+    @apply text-[#4D1F3B];
+}
+
+.dark .section-title {
+    @apply text-[#8A3F6D];
+}
+
+.section-container {
+    @apply group-hover:bg-[#F2EBEE];
+}
+
+.dark .section-container {
+    @apply group-hover:bg-[#4A4047]/50;
+}
